@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+main {
+  padding: 5% 50px;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  max-width: 100%;
+  max-height: 100%;
+}
+.titolo {
+  margin-bottom: 50px;
+}
+section {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.flex_container {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: gray;
+}
+.flex_container button {
+  background-color: aqua;
+  color: white;
+  border-radius: 10%;
+  width: 20%;
+}
+
+.sottotitolo {
+  margin-top: 50px;
+}
+@media screen and (max-width: 430px) {
+  section {
+    flex-direction: column;
+  }
+  .flex_container {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
